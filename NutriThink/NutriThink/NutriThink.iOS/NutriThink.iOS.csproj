@@ -141,7 +141,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\NutriThink\NutriThink.csproj">
-      <Project>{AE464F0C-E535-4D7F-8A2F-960A3870B215}</Project>
+      <Project>{7037B8BB-6E71-479B-BBA2-898D382AD05B}</Project>
       <Name>NutriThink</Name>
     </ProjectReference>
   </ItemGroup>

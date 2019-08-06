@@ -11,6 +11,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriThink.MobileAppService
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriThink", "NutriThink\NutriThink\NutriThink.csproj", "{7037B8BB-6E71-479B-BBA2-898D382AD05B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Style", "Style", "{8E5111D7-C0D7-4F17-B0A6-CF38FB2404D5}"
+	ProjectSection(SolutionItems) = preProject
+		NutriThink.scss = NutriThink.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{F1B81448-C601-44C5-8CBD-B83DD3CD8331}"
+	ProjectSection(SolutionItems) = preProject
+		_all.scss = _all.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{583BC06E-FD8A-4CB3-BD55-1F0F0209B9FD}"
+	ProjectSection(SolutionItems) = preProject
+		NutriThink\gulpfile.js = NutriThink\gulpfile.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,5 +114,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F2EE5D-3BB1-47D1-9A84-DC68B6CFCEFF}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1B81448-C601-44C5-8CBD-B83DD3CD8331} = {8E5111D7-C0D7-4F17-B0A6-CF38FB2404D5}
 	EndGlobalSection
 EndGlobal

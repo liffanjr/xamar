@@ -22,4 +22,8 @@
   <ItemGroup>
     <Folder Include="Assets\css\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\MockDataStore.cs" />
+    <Compile Remove="Services\AzureDataStore.cs" />
+  </ItemGroup>
 </Project>

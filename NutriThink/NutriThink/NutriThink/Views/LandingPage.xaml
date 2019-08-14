@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NutriThink.Views.LandingPage"
+             Title="NutriThink Start">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                <Grid>
+                    <AbsoluteLayout VerticalOptions="StartAndExpand"
+                                    HorizontalOptions="CenterAndExpand">
+
+                        <Label StyleClass="nt-titel"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               WidthRequest="420">NutriThink</Label>
+
+                        <Frame StyleClass="nt-logo-frame"            
+                               Margin="130,170,0,0"
+                               CornerRadius="70"
+                               HorizontalOptions="Center"
+                               HeightRequest="100"   
+                               WidthRequest="100">
+                            <Label StyleClass="nt-logo"
+                                   x:Name="logoIcon"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="CenterAndExpand">Logo</Label>
+                        </Frame>
+                    </AbsoluteLayout>
+
+                    <AbsoluteLayout x:Name="registerForm">
+                        <Label StyleClass="nt-titel"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               WidthRequest="420">Register</Label>
+
+                        <Frame StyleClass="nt-logo-frame"            
+                               Margin="15"
+                               CornerRadius="70"
+                               HorizontalOptions="Center"
+                               HeightRequest="100"   
+                               WidthRequest="100">
+
+                            <AbsoluteLayout>
+                                <Entry Text="Naam"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="CenterAndExpand" />
+                                <Entry Text="Email"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="CenterAndExpand" />
+                                <Entry Text="Wachtwoord"
+                                       IsPassword="true"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="CenterAndExpand" />
+                            </AbsoluteLayout>
+                        </Frame>
+                    </AbsoluteLayout>
+                    <AbsoluteLayout x:Name="loginForm">
+                        <Label StyleClass="nt-titel"
+                               HorizontalOptions="FillAndExpand"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               WidthRequest="420">Login</Label>
+
+                        <Frame StyleClass="nt-logo-frame"            
+                               Margin="15"
+                               CornerRadius="70"
+                               HorizontalOptions="Center"
+                               HeightRequest="100"   
+                               WidthRequest="100">
+
+                            <AbsoluteLayout>
+                                <Entry Text="Naam"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="CenterAndExpand" />
+                                <Entry Text="Wachtwoord"
+                                       IsPassword="true"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="CenterAndExpand" />
+                            </AbsoluteLayout>
+                        </Frame>
+                    </AbsoluteLayout>
+                </Grid>
+            </StackLayout>
+
+             <StackLayout VerticalOptions="CenterAndExpand">
+                
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="End" x:Name="start">
+                <Label StyleClass="h1" HorizontalTextAlignment="Center">Welkom</Label>
+                <Label HorizontalTextAlignment="Center">De beste manier om de zo gezond mogelijk te leven</Label>
+                <Label HorizontalTextAlignment="Center">Laten we beginnen!</Label>
+                <Button StyleClass="btn"
+                        CornerRadius="20"
+                        Margin="15,15,15,30"
+                        Clicked="OnStart">
+                <Button.Text>Beginnen</Button.Text></Button>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="End" x:Name="login">
+                <Label StyleClass="h1"
+                       HorizontalTextAlignment="Center">Beginnen</Label>
+                <Label HorizontalTextAlignment="Center">De beste manier om de zo gezond mogelijk te leven</Label>
+                <Label HorizontalTextAlignment="Center" Margin="0,0,0,15">Laten we beginnen!</Label>
+
+                <Button StyleClass="btn-login"
+                        HeightRequest="80"
+                        CornerRadius="0"
+                        Margin="0,0,0,-7"
+                        Clicked="OnLogin"><Button.Text>Log in</Button.Text></Button>
+
+                <StackLayout StyleClass="offBlue" Margin="0,0,0,-7" Orientation="Vertical" x:Name="providerLogin" >
+                    <Button StyleClass="btn-email"
+                            CornerRadius="20"
+                            Margin="15,5,15,5"
+                            ><!--Clicked="EmailLogin"--><Button.Text>Email</Button.Text></Button>
+                    <Button StyleClass="btn-facebook"
+                            CornerRadius="20"
+                            Margin="15,5,15,5"
+                            ><!--Clicked="FacebookLogin"--><Button.Text>Facebook</Button.Text></Button>
+                    <Button StyleClass="btn-google"
+                            CornerRadius="20"
+                            Margin="15,5,15,15"
+                            Clicked="GoogleLogin"><Button.Text>Google</Button.Text></Button>
+                </StackLayout>
+
+                <Button StyleClass="btn-signup"
+                        HeightRequest="80"
+                        CornerRadius="0"
+                        Margin="0,0,0,-7"
+                        Clicked="OnSignup"><Button.Text>Sign up</Button.Text></Button>
+
+                <StackLayout StyleClass="blue" Orientation="Vertical" x:Name="providerSingup">
+                    <Button StyleClass="btn-email"
+                            CornerRadius="20"
+                            Margin="15,5,15,5"
+                            ><!--Clicked="EmailLogin"--><Button.Text>Email</Button.Text></Button>
+                    <Button StyleClass="btn-facebook"
+                            CornerRadius="20"
+                            Margin="15,5,15,5"
+                            ><!--Clicked="FacebookLogin"--><Button.Text>Facebook</Button.Text></Button>
+                    <Button StyleClass="btn-google"
+                            CornerRadius="20"
+                            Margin="15,5,15,30"
+                            Clicked="GoogleLogin"><Button.Text>Google</Button.Text></Button>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

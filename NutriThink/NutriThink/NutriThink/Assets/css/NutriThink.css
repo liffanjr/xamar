@@ -1,0 +1,46 @@
+.nt-titel {
+  background-color: #cee9ff;
+  color: #ffffff;
+  height: 250;
+  font-size: 34;
+  font-weight: bold; }
+
+.nt-logo-frame {
+  background-color: #ffffff; }
+
+.h1 {
+  font-size: 34; }
+
+.blue {
+  background-color: #cee9ff; }
+
+.offBlue {
+  background-color: #e4f3ff; }
+
+.btn, .btn-signup, .btn-email, .btn-facebook, .btn-google, .btn-login {
+  height: 40;
+  font-weight: bold; }
+
+.btn {
+  background-color: #1f262f;
+  color: #ffffff; }
+
+.btn-signup {
+  background-color: #cee9ff;
+  color: #1f262f; }
+
+.btn-email {
+  background-color: #ffffff;
+  color: #1f262f; }
+
+.btn-facebook {
+  background-color: blue;
+  color: #ffffff; }
+
+.btn-google {
+  background-color: red;
+  color: #ffffff; }
+
+.btn-login {
+  background-color: #e4f3ff;
+  color: #1f262f; }

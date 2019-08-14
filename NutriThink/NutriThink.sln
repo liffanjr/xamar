@@ -13,12 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutriThink", "NutriThink\Nu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Style", "Style", "{8E5111D7-C0D7-4F17-B0A6-CF38FB2404D5}"
 	ProjectSection(SolutionItems) = preProject
-		NutriThink.scss = NutriThink.scss
+		NutriThink\Style\NutriThink.scss = NutriThink\Style\NutriThink.scss
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{F1B81448-C601-44C5-8CBD-B83DD3CD8331}"
 	ProjectSection(SolutionItems) = preProject
-		_all.scss = _all.scss
+		NutriThink\Style\Components\_all.scss = NutriThink\Style\Components\_all.scss
+		NutriThink\Style\Components\Global.scss = NutriThink\Style\Components\Global.scss
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{583BC06E-FD8A-4CB3-BD55-1F0F0209B9FD}"

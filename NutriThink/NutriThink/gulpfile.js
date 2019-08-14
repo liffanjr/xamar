@@ -11,10 +11,10 @@ gulp.task('css',
     function () {
         return gulp.src('./Style/*.scss')
             .pipe(sass.sync().on('error', sass.logError))
-            .pipe(gulp.dest('./NutriThink/css'));
+            .pipe(gulp.dest('./NutriThink/Assets/css'));
     });
 
-gulp.task('watch-sass',
+gulp.task('watch',
     /**
      * Watches for changes in te 'Style' folder.
      * When a changes has bin saved te 'sass' is called.

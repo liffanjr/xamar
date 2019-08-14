@@ -1,2 +1,17 @@
-﻿body {
-}
+﻿$white: #ffffff;
+$offWhite: #f7f7f7;
+$black: #1f262f;
+$offBlack: #384351;
+$brown: #d4ae7f;
+$offBrown: #fffed6;
+
+$blue: #cee9ff;
+$offBlue: #e4f3ff;
+$green: #dbffcb;
+$offGreen: #e4fdd8;
+$purple: #dad9ef;
+$offPurple: e3e2f2;
+$yellow: #fdf8c5;
+$offYellow: #fffbd8;
+
+@import 'Components/_all';

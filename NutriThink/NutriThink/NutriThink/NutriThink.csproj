@@ -15,4 +15,11 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\StartPage.xaml" />
+    <EmbeddedResource Remove="Views\StartPage.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\css\" />
+  </ItemGroup>
 </Project>

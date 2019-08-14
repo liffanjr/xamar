@@ -1,0 +1,68 @@
+﻿.nt-titel {
+    background-color: $blue;
+    color: $white;
+    height: 250;
+    font-size: 34;
+    font-weight: bold;
+}
+
+
+.nt-logo-frame {
+    background-color: $white;
+
+    .nt-logo {
+    }
+}
+
+
+.h1 {
+    font-size: 34;
+}
+
+.p {
+}
+
+.blue {
+    background-color: $blue;
+}
+
+.offBlue {
+    background-color: $offBlue;
+}
+
+.btn, .btn-signup, .btn-email, .btn-facebook, .btn-google, .btn-login {
+    height: 40;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: $black;
+    color: $white;
+}
+
+.btn-signup {
+    background-color: $blue;
+    color: $black;
+}
+
+.btn-email {
+    background-color: $white;
+    color: $black;
+}
+
+
+.btn-facebook {
+    background-color: blue;
+    color: $white;
+}
+
+
+.btn-google {
+    background-color: red;
+    color: $white;
+}
+
+.btn-login {
+    background-color: $offBlue;
+    color: $black;
+}

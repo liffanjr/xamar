@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>151388010314-npm2s7mpq4aejvh2kmdesoum8b1grg73.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.151388010314-npm2s7mpq4aejvh2kmdesoum8b1grg73</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>151388010314-6iq3aipv2utfbef18up31l2rh0trdtj8.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD6hdyEZjGES1WwwfqX0m4-AD8vkpmVLMQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>151388010314</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Com.Justin.NutriThink</string>
+	<key>PROJECT_ID</key>
+	<string>nutrithink</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nutrithink.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false />
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:151388010314:ios:793d06cfc7afe5b3</string>
+	<key>DATABASE_URL</key>
+	<string>https://nutrithink.firebaseio.com</string>
+</dict>
+</plist>

@@ -14,6 +14,7 @@
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Xamarin.Auth" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\StartPage.xaml" />
@@ -21,9 +22,25 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\css\" />
+    <Folder Include="Authentication\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Services\MockDataStore.cs" />
     <Compile Remove="Services\AzureDataStore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.iOS">
+      <HintPath>..\..\..\..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\12.14.0.114\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="google-services.json" />
+    <None Remove="Authentication\google-services.json" />
+    <None Remove="GoogleService-Info.plist" />
+    <None Remove="Authentication\GoogleService-Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Authentication\google-services.json" />
+    <EmbeddedResource Include="Authentication\GoogleService-Info.plist" />
   </ItemGroup>
 </Project>

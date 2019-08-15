@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "151388010314",
+    "firebase_url": "https://nutrithink.firebaseio.com",
+    "project_id": "nutrithink",
+    "storage_bucket": "nutrithink.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151388010314:android:793d06cfc7afe5b3",
+        "android_client_info": {
+          "package_name": "Com.Justin.NutriThink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151388010314-6iq3aipv2utfbef18up31l2rh0trdtj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Com.Justin.NutriThink",
+            "certificate_hash": "b55df68b736d543973c6c0036b0c45de9b24b944"
+          }
+        },
+        {
+          "client_id": "151388010314-dgtc7nng0r3ng7adkmbn1jt6ln2iu2rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCgbVrXrPkxnGPtiykkiCEJkqTmGxPdY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151388010314-dgtc7nng0r3ng7adkmbn1jt6ln2iu2rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
